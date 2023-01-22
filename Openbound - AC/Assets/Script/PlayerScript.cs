@@ -16,6 +16,10 @@ public class PlayerScript : MonoBehaviour
     public bool sprintBool = false;
 
     public string interactableString = "";
+    DialogueTrigger dialogueTrigger;
+
+    private bool interactPressed = false;
+    [SerializeField] private bool submitPressed = false;
 
     private void Awake()
     {
@@ -60,11 +64,6 @@ public class PlayerScript : MonoBehaviour
         rb.velocity = inputVector * currentSpeed * Time.fixedDeltaTime;
     }
 
-    public void Interact(InputAction.CallbackContext context)
-    {
-        Debug.Log("Interacting | " + context.phase);
-    }
-
     public void ToggleSpeed(InputAction.CallbackContext context)
     {
         if (context.performed)
@@ -76,6 +75,54 @@ public class PlayerScript : MonoBehaviour
         {
             sprintBool = false;
         }
+    }
+
+    public void SubmitPressed(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            submitPressed = true;
+        }
+        else if (context.canceled)
+        {
+            submitPressed = false;
+        }
+    }
+
+    public void GUISubmitPressed()
+    {
+        submitPressed = true;
+    }
+
+    public bool GetSubmitPressed()
+    {
+        bool result = submitPressed;
+        submitPressed = false;
+        return result;
+    }
+
+    public void RegisterSubmitPressed()
+    {
+        submitPressed = false;
+    }
+
+    public void InteractButtonPressed(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            interactPressed = true;
+        }
+        else if (context.canceled)
+        {
+            interactPressed = false;
+        }
+    }
+
+    public bool GetInteractPressed()
+    {
+        bool result = interactPressed;
+        interactPressed = false;
+        return result;
     }
 
     public void PauseGame(InputAction.CallbackContext context)
@@ -102,6 +149,11 @@ public class PlayerScript : MonoBehaviour
         if(col.gameObject.tag == "Interactable")
         {
             interactableString = col.name;
+
+            if(col.gameObject.GetComponent<DialogueTrigger>() != null)
+            {
+                dialogueTrigger = col.gameObject.GetComponent<DialogueTrigger>();
+            }
         }
     }
 
