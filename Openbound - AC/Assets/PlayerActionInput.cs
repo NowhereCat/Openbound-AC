@@ -87,7 +87,7 @@ public partial class @PlayerActionInput : IInputActionCollection2, IDisposable
                     ""name"": ""2D Vector"",
                     ""id"": ""93ed92eb-8b6a-46fa-b3a1-1986523867ba"",
                     ""path"": ""2DVector"",
-                    ""interactions"": ""Press(behavior=2)"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Movement"",
