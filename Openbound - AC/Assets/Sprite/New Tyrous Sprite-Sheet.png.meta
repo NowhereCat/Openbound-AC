@@ -1,0 +1,2115 @@
+fileFormatVersion: 2
+guid: 2febfa1e8a2ecc842b46c8e8ddffd230
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 390
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800a3f23be7c2464f992913fa397901d
+      internalID: -1133974174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 390
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aba56adf74b9b43a5949df5a4b3583
+      internalID: -1716078549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 390
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a131b6b8f3abf4a8baf7dc54686e7f
+      internalID: -1040711319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 390
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f525b3663cde36040b157018559ecf37
+      internalID: 2123294773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 390
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a34824c575f3e149a540f7a728c55d8
+      internalID: -1361980865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 389
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6489eee989884a9a66b9d322f6a73
+      internalID: -439380000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 389
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f7b966b1072f348b04e392617e4b16
+      internalID: -416784810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 389
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eba17f4ad19dfb43a9b1e8a28ddf664
+      internalID: 2017648494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 389
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cff9e5bbc1005418a0239d9d82a092
+      internalID: 1084170924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 389
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023d93072cbdfc249bfa1e2fb9871884
+      internalID: -392885124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 389
+        width: 34
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c486620051277a45a7814dadbcba69b
+      internalID: 1792346956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-FORWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 389
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6451613, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186b2cb1d4a19743ab9894671a8d3dd
+      internalID: 261518794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 389
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6388889, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d634c93b3f66f46b23b08af9bfb988
+      internalID: 809569120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-BACKWARD-DIAGONAL-01
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 389
+        width: 29
+        height: 45
+      alignment: 9
+      pivot: {x: 0.62068963, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fc67e128d294045b0c038a409067bc
+      internalID: 123696150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 389
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a6717d651b3de4f9dc8774f0912ec5
+      internalID: 533914411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 334
+        width: 30
+        height: 47
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a70dcc03f3ece944bbf5afe8d3cbb4e
+      internalID: -1009156517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 334
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5483871, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f116558fdfbc7674e9fdd040c7f31d08
+      internalID: 913939860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 334
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccc37ee01e3f1f4d91c485cffd7190c
+      internalID: 266398252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 334
+        width: 31
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5483871, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f15279000ce8a498e65097f7d382d8
+      internalID: -1449263071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 334
+        width: 26
+        height: 47
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2339d5f3b11c214babd649f4dd330b9
+      internalID: 120804054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 334
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54676389dba6180499f8a5f7ab8aa43f
+      internalID: 399018283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 334
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cddfa5045f6fd4498b7eb079e5397b
+      internalID: -355209822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 334
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405d044dcc982941bbcc31f48c30663
+      internalID: 1865089010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 334
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689b728a5d569b45bc0b68bea3f7e4c
+      internalID: -1564275918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 334
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a8c373842540c046aa7ab84d69ca3f2
+      internalID: -765653568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 334
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02a8896ef2efa41bd0f97663701f25
+      internalID: 1051495386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-FORWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 334
+        width: 30
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.45652175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb39fb41a21f344b85b04c8a728cede
+      internalID: -1677849755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 335
+        width: 38
+        height: 45
+      alignment: 9
+      pivot: {x: 0.6052632, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a2ddb1aa1f5374ab8e0fdc614eedcc
+      internalID: 348205657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-BACKWARD-DIAGONAL-02
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 334
+        width: 31
+        height: 45
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f0a5261f4519e4abcea6d691990778
+      internalID: -1137180927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-RUN-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 334
+        width: 34
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9359b859ea42bb340bc3bf5f4b9ce6fa
+      internalID: 799514183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5bc8ac156582145af06fd7ff2766a7
+      internalID: 812924355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-03
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a875152727a5d1a46b6e6cb8c86a6aa1
+      internalID: 1646022082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-03
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 279
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65063039f6e9e6a439cc4c7b1908c4b5
+      internalID: -1072646137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-03
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb00e39c0e059c4390f74c3f849a845
+      internalID: -255099373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 279
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e02f87d0ba1ed4680b5caf207c8822
+      internalID: 1456558347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf263efa9663efc40861a43b417ea586
+      internalID: 415232850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-03
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9221d156867e1419ca8afcd4694196
+      internalID: -1226892090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-03
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 279
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1596d53d9e89a1f42872d61e17eeba99
+      internalID: 46376543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-03
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 279
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fcc1cf5bfb93449843f43c09a86cfa
+      internalID: -1065737139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 279
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed10b0e7484f8144f9a1e93c0f53377a
+      internalID: 745101297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e90fd0bf5d15246bc8dc74aa7aae47
+      internalID: 1294064438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-04
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f6c1a8e5caefb4c896248ed1702355
+      internalID: -638342230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-04
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 224
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adc9201998aedf48aac1e584517df64
+      internalID: -1544710247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-04
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af21ec6328b48754083cf21dfabd72eb
+      internalID: -555718497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 224
+        width: 26
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981f1d878b485541954d0400213da41
+      internalID: 1112989027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18814ab97345a2469b8ebf8d5d14452
+      internalID: 937770809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-04
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43197339d784874980edddce87201a6
+      internalID: 1646832166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-04
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 224
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0156d369ed87c24eba2cf192fd2cd25
+      internalID: 1917257762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-04
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 224
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121beed65ec4e74eb11ff46735cb32c
+      internalID: 2112850188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 224
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93449b48d8cfd0a43804d36170f4dd14
+      internalID: 1458622536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-05
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 170
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187245e006dd94149bccde9db9c68d3b
+      internalID: -2045576341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-05
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 170
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad91276079348b4fa4b1f320f2406f2
+      internalID: -1986906310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-05
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 170
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e3db8fd65e5d84799d35d747f8e7e5
+      internalID: 2073449905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-05
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 170
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db5b2f89e6cab4f97c8f4c738e4e54
+      internalID: -242471833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-05
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 170
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab202d85073474788b83a26b3fbd85
+      internalID: -92789674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-05
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 169
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300c8de1b8932c44984fb6b0eb946d4b
+      internalID: -1763597297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-05
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 169
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acad0037af3ff6242a646c74c00ed9cf
+      internalID: -2049869122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-05
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 169
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe97e1e43085bd34980bd6f06a2450ca
+      internalID: -2012964941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-05
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 169
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f61c917a8c6b644b748ca13fab5b8c
+      internalID: -1821542498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-05
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 169
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136761c9c71885944bbf3189f3e86065
+      internalID: -2073517094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-06
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 114
+        width: 30
+        height: 47
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a8510043704dc4e86f534750dbaf4d
+      internalID: 1984881803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-06
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 115
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5483871, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e1bbb7ed994ff44858aaa6dec93c5a
+      internalID: -807919479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-06
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 114
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a12a662aa895d94e893936cfb8c5b31
+      internalID: -1860169486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-06
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 117
+        width: 31
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5483871, y: 0.47727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cb8688211c4d0489e60748012042c5
+      internalID: 1332759247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-06
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 114
+        width: 26
+        height: 47
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.4893617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889f4b22fad66754b96c62483f32903b
+      internalID: -539183245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-06
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 114
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc4663315fee4344b03252325b1eccd
+      internalID: 459171650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-06
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 114
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0414dd84f7b285e4a8ffda075b77d4e7
+      internalID: 418708688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-06
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 114
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f0b5497d8b0f049bc5d659da039409
+      internalID: 1175314175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-06
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 114
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc129dc16a38117479c40a63d1d40aa6
+      internalID: 639861628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-06
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 114
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ee38b30387b484492d8561ff835ca6
+      internalID: 1158793003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-07
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 59
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71412045345c7cd428f0b5294298f4e5
+      internalID: -1665662490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-07
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 60
+        width: 28
+        height: 45
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca6ed1d56bae3243ac13f4080bd4524
+      internalID: -919644590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-07
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 59
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ceefdc299135f4a854c3dc1d246f32
+      internalID: -1599143309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-07
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 60
+        width: 28
+        height: 45
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3691f32f0c98feb4a8c1b19b5bdcaa39
+      internalID: -1938183064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-07
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 59
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83827966b36a6643a6038d302f06bc0
+      internalID: -1808383024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-07
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 59
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f3fe6f4932ba341be8045fed6c5aeb
+      internalID: 1769002220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-07
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 59
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1778635856bfb489b32a004ea742cb
+      internalID: -299045957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-07
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 59
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e151bec42cb31e840bd67c370026085c
+      internalID: 847429108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-07
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 59
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 544fde851b9e58f4b8c4e0ddc7e00323
+      internalID: 551536323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-07
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 59
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffe6d2c125629049b68c9a0fb970b22
+      internalID: -213113234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-08
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3022b80cb00a84f87e5cf628275f01
+      internalID: -1762214928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-FORWARD-DIAGONAL-08
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 28
+        height: 44
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.52272725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0622fae9deb9b4ba1cef2d377f4fb0
+      internalID: 415639977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-SIDE-08
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e22cddf2b507b4badc074632542ff7
+      internalID: 1401494732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-DIAGONAL-08
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 5
+        width: 28
+        height: 45
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e7b64da0e17c94fa09d0b022da51d4
+      internalID: -504812620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-WALK-BACKWARD-08
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 4
+        width: 26
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb67285b659ad244b6a32e04c01f508
+      internalID: -60977510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-08
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 4
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5604b2154a825af45ba812dddbb1857c
+      internalID: 304724825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-FORWARD-DIAGONAL-08
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8c025537bbacc42951d2d407aa2a40
+      internalID: -151754415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-SIDE-08
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfde1b34754ff9d4fb52d2146fe7a79d
+      internalID: 364706307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-08
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4
+        width: 28
+        height: 46
+      alignment: 9
+      pivot: {x: 0.60714287, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d238020de46a6b249919b08fb91af553
+      internalID: 1362978625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tyrous-Act3-IDLE-BACKWARD-08
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 4
+        width: 26
+        height: 46
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb30889d018d6a4c8a9b6f164302291
+      internalID: 1180914813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tyrous-Act3-IDLE-SIDE-06: 1175314175
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-06: 1332759247
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-03: -1226892090
+      Tyrous-Act3-WALK-SIDE-06: -1860169486
+      Tyrous-Act3-WALK-SIDE-02: 266398252
+      Tyrous-Act3-WALK-BACKWARD-05: -92789674
+      Tyrous-Act3-IDLE-FORWARD-07: 1769002220
+      Tyrous-Act3-RUN-BACKWARD-DIAGONAL-02: -1137180927
+      Tyrous-Act3-IDLE-FORWARD-01: -439380000
+      Tyrous-Act3-WALK-FORWARD-07: -1665662490
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-05: -1986906310
+      Tyrous-Act3-WALK-SIDE-03: -1072646137
+      Tyrous-Act3-IDLE-BACKWARD-01: -392885124
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-07: -299045957
+      Tyrous-Act3-RUN-BACKWARD-02: 799514183
+      Tyrous-Act3-WALK-BACKWARD-08: -60977510
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-04: 2112850188
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-04: -638342230
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-07: -919644590
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-06: 639861628
+      Tyrous-Act3-WALK-SIDE-08: 1401494732
+      Tyrous-Act3-WALK-BACKWARD-03: 1456558347
+      Tyrous-Act3-WALK-FORWARD-01: -1133974174
+      Tyrous-Act3-WALK-BACKWARD-07: -1808383024
+      Tyrous-Act3-WALK-FORWARD-04: 1294064438
+      Tyrous-Act3-IDLE-SIDE-07: 847429108
+      Tyrous-Act3-IDLE-BACKWARD-04: 1458622536
+      Tyrous-Act3-WALK-BACKWARD-02: 120804054
+      Tyrous-Act3-RUN-BACKWARD-DIAGONAL-01: 123696150
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-01: 1084170924
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-05: -242471833
+      Tyrous-Act3-WALK-FORWARD-03: 812924355
+      Tyrous-Act3-WALK-SIDE-04: -1544710247
+      Tyrous-Act3-IDLE-FORWARD-04: 937770809
+      Tyrous-Act3-IDLE-SIDE-02: 1865089010
+      Tyrous-Act3-WALK-BACKWARD-01: -1361980865
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-02: -1564275918
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-02: -1449263071
+      Tyrous-Act3-WALK-BACKWARD-06: -539183245
+      Tyrous-Act3-RUN-FORWARD-01: 1792346956
+      Tyrous-Act3-IDLE-FORWARD-08: 304724825
+      Tyrous-Act3-RUN-BACKWARD-01: 533914411
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-02: 913939860
+      Tyrous-Act3-IDLE-SIDE-01: 2017648494
+      Tyrous-Act3-IDLE-BACKWARD-06: 1158793003
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-08: 415639977
+      Tyrous-Act3-IDLE-SIDE-05: -2012964941
+      Tyrous-Act3-RUN-FORWARD-02: 1051495386
+      Tyrous-Act3-IDLE-FORWARD-02: 399018283
+      Tyrous-Act3-RUN-FORWARD-DIAGONAL-01: 261518794
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-04: -555718497
+      Tyrous-Act3-WALK-SIDE-05: 2073449905
+      Tyrous-Act3-IDLE-BACKWARD-02: -765653568
+      Tyrous-Act3-WALK-FORWARD-08: -1762214928
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-06: -807919479
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-02: -355209822
+      Tyrous-Act3-IDLE-SIDE-08: 364706307
+      Tyrous-Act3-WALK-FORWARD-02: -1009156517
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-03: -1065737139
+      Tyrous-Act3-RUN-FORWARD-DIAGONAL-02: -1677849755
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-01: -416784810
+      Tyrous-Act3-IDLE-SIDE-04: 1917257762
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-03: -255099373
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-03: 1646022082
+      Tyrous-Act3-RUN-SIDE-02: 348205657
+      Tyrous-Act3-IDLE-BACKWARD-05: -2073517094
+      Tyrous-Act3-IDLE-FORWARD-06: 459171650
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-07: -1938183064
+      Tyrous-Act3-WALK-FORWARD-DIAGONAL-01: -1716078549
+      Tyrous-Act3-IDLE-FORWARD-05: -1763597297
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-05: -1821542498
+      Tyrous-Act3-WALK-FORWARD-05: -2045576341
+      Tyrous-Act3-WALK-SIDE-01: -1040711319
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-06: 418708688
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-08: -151754415
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-05: -2049869122
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-08: -504812620
+      Tyrous-Act3-WALK-SIDE-07: -1599143309
+      Tyrous-Act3-IDLE-BACKWARD-03: 745101297
+      Tyrous-Act3-IDLE-BACKWARD-07: -213113234
+      Tyrous-Act3-IDLE-SIDE-03: 46376543
+      Tyrous-Act3-WALK-BACKWARD-DIAGONAL-01: 2123294773
+      Tyrous-Act3-WALK-BACKWARD-04: 1112989027
+      Tyrous-Act3-WALK-FORWARD-06: 1984881803
+      Tyrous-Act3-IDLE-FORWARD-03: 415232850
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-08: 1362978625
+      Tyrous-Act3-IDLE-BACKWARD-08: 1180914813
+      Tyrous-Act3-IDLE-FORWARD-DIAGONAL-04: 1646832166
+      Tyrous-Act3-RUN-SIDE-01: 809569120
+      Tyrous-Act3-IDLE-BACKWARD-DIAGONAL-07: 551536323
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
