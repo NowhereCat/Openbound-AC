@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: c507ae7432313cd40931c2ff0a22578c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Neutral01
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 480
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330eea08ef43e5a418c9dfd6888158eb
+      internalID: -295857076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Neutral02
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 480
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a49d81783d4780439c014fd995a3aa4
+      internalID: -1110780167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Happy01
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 480
+        width: 118
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6004e6e7e57ba544e818a4301fd01bc0
+      internalID: -89749193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Happy02
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 480
+        width: 117
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b7943531df697408ad9ced09555fb1
+      internalID: -787964668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Annoyed01
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 139
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefa0cf839b163c4cbe10108f8dbdc29
+      internalID: 2114923036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Annoyed02
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 480
+        width: 139
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55da880e2b8044141a72f02b2127addf
+      internalID: 573615868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Confused01
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 480
+        width: 114
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c2fc2797ec96a4dae4e88c43a54dd2
+      internalID: -178164566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Confused02
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 480
+        width: 114
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1e571256040f0469ec90c2db753cb4
+      internalID: 1083669246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Unamused01
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 262
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71adc66853b6ec44eb6df02b58b2496c
+      internalID: 179768797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Unamused02
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 262
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab8617613cdea24f8ab21e357690bd5
+      internalID: -1092265107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Suprised01
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 262
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7312a9d466a6e244a0ef283d588f608
+      internalID: -32338786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Suprised02
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 262
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ecd88cacfbdef46bcf784b9f4a90e1
+      internalID: -369647797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Sad01
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 262
+        width: 131
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1592cc41f6e3be24a84d06df5713cf11
+      internalID: -445852235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Sad02
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 262
+        width: 131
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c91e94c2ff4347852e8cb3cdf5e26
+      internalID: -1401825883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Smug01
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 262
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c223d1afe8a63f14ea09c71c24128ffe
+      internalID: 1814411030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Smug02
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 262
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8691477e3657b9a45aebd30b2b4acf6a
+      internalID: -1964618192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Curious01
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 45
+        width: 116
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cb244bcfb2fc4479465d6617c9ac0a
+      internalID: 1411530593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Curious02
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 45
+        width: 116
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b73f1c8ed9306409810e9d0ba57f90
+      internalID: -93885336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Angry01
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 45
+        width: 112
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b039b9c7ee92fa41a30ee7644da6c22
+      internalID: -1696674230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Angry0
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 45
+        width: 112
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10380c77467b8214fa241a1e25722548
+      internalID: 896077536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Shushed01
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 45
+        width: 114
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa5100d53e40c24dbc33b9f7d9fb198
+      internalID: -1386071687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Shushed02
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 45
+        width: 114
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09d1a43af892c348b2e83b9d546f923
+      internalID: -1223766936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Blushed01
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 45
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ccad55baddf1d4e9a5633e4ee6f850
+      internalID: -170791079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: talksprite_tyrousAct3_Blushed02
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 45
+        width: 115
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a74fdb654c7cf49a214b4b8ae18fd7
+      internalID: 21640844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tyrous Talk Sprite Act 3 Sprite Sheet_65: -1984774075
+      Tyrous Talk Sprite Act 3 Sprite Sheet_58: 41849010
+      Tyrous Talk Sprite Act 3 Sprite Sheet_33: 621411481
+      Tyrous Talk Sprite Act 3 Sprite Sheet_9: 157581734
+      talksprite_tyrousAct3_Shushed02: -1223766936
+      Tyrous Talk Sprite Act 3 Sprite Sheet_94: -1368930306
+      Tyrous Talk Sprite Act 3 Sprite Sheet_29: 433411548
+      Tyrous Talk Sprite Act 3 Sprite Sheet_31: -1619630004
+      talksprite_tyrousAct3_Smug02: -1964618192
+      talksprite_tyrousAct3_Annoyed02: 573615868
+      talksprite_tyrousAct3_Angry01: -1696674230
+      Tyrous Talk Sprite Act 3 Sprite Sheet_63: -1877342144
+      Tyrous Talk Sprite Act 3 Sprite Sheet_91: 1030745908
+      Tyrous Talk Sprite Act 3 Sprite Sheet_54: 1567433037
+      Tyrous Talk Sprite Act 3 Sprite Sheet_51: -353186242
+      Tyrous Talk Sprite Act 3 Sprite Sheet_32: -271990276
+      Tyrous Talk Sprite Act 3 Sprite Sheet_15: -188531573
+      Tyrous Talk Sprite Act 3 Sprite Sheet_23: 1050194079
+      Tyrous Talk Sprite Act 3 Sprite Sheet_76: -1277984242
+      talksprite_tyrousAct3_Confused02: 1083669246
+      Tyrous Talk Sprite Act 3 Sprite Sheet_56: -1028594513
+      Tyrous Talk Sprite Act 3 Sprite Sheet_53: -952386214
+      Tyrous Talk Sprite Act 3 Sprite Sheet_24: -837411227
+      Tyrous Talk Sprite Act 3 Sprite Sheet_61: -1778026222
+      Tyrous Talk Sprite Act 3 Sprite Sheet_100: -900362075
+      talksprite_tyrousAct3_Suprised01: -32338786
+      Tyrous Talk Sprite Act 3 Sprite Sheet_47: 423913933
+      talksprite_tyrousAct3_Curious02: -93885336
+      Tyrous Talk Sprite Act 3 Sprite Sheet_17: 1040742460
+      Tyrous Talk Sprite Act 3 Sprite Sheet_21: -1236502598
+      talksprite_tyrousAct3_Sad02: -1401825883
+      Tyrous Talk Sprite Act 3 Sprite Sheet_80: 487723
+      Tyrous Talk Sprite Act 3 Sprite Sheet_90: -1041860471
+      Tyrous Talk Sprite Act 3 Sprite Sheet_102: 1779981692
+      Tyrous Talk Sprite Act 3 Sprite Sheet_93: -1625434770
+      Tyrous Talk Sprite Act 3 Sprite Sheet_52: -1541703637
+      Tyrous Talk Sprite Act 3 Sprite Sheet_66: 1521720369
+      Tyrous Talk Sprite Act 3 Sprite Sheet_18: -1547706171
+      talksprite_tyrousAct3_Curious01: 1411530593
+      Tyrous Talk Sprite Act 3 Sprite Sheet_46: -450297188
+      Tyrous Talk Sprite Act 3 Sprite Sheet_14: -1526839457
+      Tyrous Talk Sprite Act 3 Sprite Sheet_49: -1909592963
+      talksprite_tyrousAct3_Blushed02: 21640844
+      Tyrous Talk Sprite Act 3 Sprite Sheet_87: -765924562
+      talksprite_tyrousAct3_Shushed01: -1386071687
+      Tyrous Talk Sprite Act 3 Sprite Sheet_45: 484290506
+      Tyrous Talk Sprite Act 3 Sprite Sheet_64: 1768796621
+      talksprite_tyrousAct3_Happy02: -787964668
+      Tyrous Talk Sprite Act 3 Sprite Sheet_26: 375444713
+      Tyrous Talk Sprite Act 3 Sprite Sheet_50: 1027858142
+      Tyrous Talk Sprite Act 3 Sprite Sheet_43: -403538859
+      Tyrous Talk Sprite Act 3 Sprite Sheet_11: -73576936
+      Tyrous Talk Sprite Act 3 Sprite Sheet_16: 545787190
+      Tyrous Talk Sprite Act 3 Sprite Sheet_97: -312525930
+      Tyrous Talk Sprite Act 3 Sprite Sheet_81: -1252558462
+      Tyrous Talk Sprite Act 3 Sprite Sheet_67: 1531223534
+      Tyrous Talk Sprite Act 3 Sprite Sheet_34: 684424668
+      Tyrous Talk Sprite Act 3 Sprite Sheet_95: 189657311
+      Tyrous Talk Sprite Act 3 Sprite Sheet_57: 1031706754
+      Tyrous Talk Sprite Act 3 Sprite Sheet_89: -643302286
+      Tyrous Talk Sprite Act 3 Sprite Sheet_83: -1642733053
+      talksprite_tyrousAct3_Angry0: 896077536
+      Tyrous Talk Sprite Act 3 Sprite Sheet_79: 77020456
+      Tyrous Talk Sprite Act 3 Sprite Sheet_62: -1820936524
+      Tyrous Talk Sprite Act 3 Sprite Sheet_8: 776349288
+      Tyrous Talk Sprite Act 3 Sprite Sheet_77: -1497485335
+      Tyrous Talk Sprite Act 3 Sprite Sheet_82: -1880791486
+      Tyrous Talk Sprite Act 3 Sprite Sheet_12: 1361774272
+      Tyrous Talk Sprite Act 3 Sprite Sheet_22: -1698372010
+      Tyrous Talk Sprite Act 3 Sprite Sheet_96: -1465962667
+      Tyrous Talk Sprite Act 3 Sprite Sheet_98: -527067202
+      Tyrous Talk Sprite Act 3 Sprite Sheet_30: 1936229838
+      Tyrous Talk Sprite Act 3 Sprite Sheet_85: 205401916
+      talksprite_tyrousAct3_Suprised02: -369647797
+      talksprite_tyrousAct3_Happy01: -89749193
+      Tyrous Talk Sprite Act 3 Sprite Sheet_88: -1583914563
+      Tyrous Talk Sprite Act 3 Sprite Sheet_84: 252483547
+      Tyrous Talk Sprite Act 3 Sprite Sheet_10: 294410792
+      talksprite_tyrousAct3_Unamused01: 179768797
+      Tyrous Talk Sprite Act 3 Sprite Sheet_99: 825995482
+      Tyrous Talk Sprite Act 3 Sprite Sheet_101: 1147548082
+      Tyrous Talk Sprite Act 3 Sprite Sheet_44: 346829782
+      Tyrous Talk Sprite Act 3 Sprite Sheet_48: -606029244
+      Tyrous Talk Sprite Act 3 Sprite Sheet_59: 745851765
+      talksprite_tyrousAct3_Smug01: 1814411030
+      talksprite_tyrousAct3_Neutral02: -1110780167
+      Tyrous Talk Sprite Act 3 Sprite Sheet_25: -780460376
+      talksprite_tyrousAct3_Unamused02: -1092265107
+      Tyrous Talk Sprite Act 3 Sprite Sheet_78: -1853787251
+      Tyrous Talk Sprite Act 3 Sprite Sheet_27: -1075669602
+      talksprite_tyrousAct3_Confused01: -178164566
+      Tyrous Talk Sprite Act 3 Sprite Sheet_86: -1371903490
+      talksprite_tyrousAct3_Sad01: -445852235
+      talksprite_tyrousAct3_Blushed01: -170791079
+      Tyrous Talk Sprite Act 3 Sprite Sheet_28: 940893751
+      talksprite_tyrousAct3_Annoyed01: 2114923036
+      talksprite_tyrousAct3_Neutral01: -295857076
+      Tyrous Talk Sprite Act 3 Sprite Sheet_55: 1149490123
+      Tyrous Talk Sprite Act 3 Sprite Sheet_13: 1133614662
+      Tyrous Talk Sprite Act 3 Sprite Sheet_19: -1993610118
+      Tyrous Talk Sprite Act 3 Sprite Sheet_60: -1389151523
+      Tyrous Talk Sprite Act 3 Sprite Sheet_92: 1455606099
+      Tyrous Talk Sprite Act 3 Sprite Sheet_20: -1065115538
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

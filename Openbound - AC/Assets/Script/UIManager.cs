@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -15,6 +16,10 @@ public class UIManager : MonoBehaviour
     public float[] locationPositions;
     public float locationPanelDuration = 10f;
 
+    [Header("Settings Panel")]
+    public GameObject settingsPanel;
+    [SerializeField] bool showSettings = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,7 +31,7 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        settingsPanel.SetActive(showSettings);
     }
 
     public void ToggleTabMenu(bool onlyCheck = false)
@@ -54,6 +59,11 @@ public class UIManager : MonoBehaviour
             yield return new WaitForSeconds(locationPanelDuration/3);
             locationPanel.transform.LeanMoveY(locationPositions[1], locationPanelDuration / 3);
         }
+    }
+
+    public void ToggleSettingsPanel()
+    {
+        showSettings = !showSettings;
     }
 
 }

@@ -3,7 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Audio;
 using UnityEngine.EventSystems;
+using UnityEditor.TextCore.Text;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -19,7 +22,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject continueIcon;
     [SerializeField] TextMeshProUGUI dialogueText;
-    [SerializeField] TextMeshProUGUI displayNameText;
+    [SerializeField] TextMeshProUGUI displayNameText1;
+    [SerializeField] TextMeshProUGUI displayNameText2;
+    [SerializeField] GameObject[] dialoguePanels;
     //[SerializeField] Animator portraitAnimator;
     //Animator layoutAnimator;
 
@@ -27,7 +32,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] GameObject[] choices;
     TextMeshProUGUI[] choicesText;
 
-    /*
+    [Header("Profiles")]
+    public CharacterProfile[] characterProfiles;
+
     [Header("Audio")]
     [SerializeField] DialogueAudioInfoSO defaultAudioInfo;
     [SerializeField]
@@ -38,8 +45,9 @@ public class DialogueManager : MonoBehaviour
 
     Dictionary<string, DialogueAudioInfoSO> audioInfoDictionary;
 
+    [SerializeField] AudioMixerGroup audioMixerGroupChatter;
     AudioSource audioSource;
-    */
+    
     Story currentStory;
 
     public bool dialogueIsPlaying { get; private set; }
@@ -51,11 +59,12 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
 
     const string SPEAKER_TAG = "speaker";
+    const string SIDE_TAG = "side";
     const string PORTRAIT_TAG = "portrait";
     const string LAYOUT_TAG = "layout";
     const string AUDIO_TAG = "audio";
 
-    DialogueVariables dialogueVariables;
+    DialogueVariables dialogueVariables;    
 
     private void Awake()
     {
@@ -69,8 +78,9 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables = new DialogueVariables(loadGlobasJSON);
 
-        //audioSource = gameObject.AddComponent<AudioSource>();
-        //currentAudioInfo = defaultAudioInfo;
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.outputAudioMixerGroup = audioMixerGroupChatter;
+        currentAudioInfo = defaultAudioInfo;
     }
 
     private void Start()
@@ -88,10 +98,10 @@ public class DialogueManager : MonoBehaviour
             index++;
         }
 
-        //InitializeAudioInfoDictionary();
+        InitializeAudioInfoDictionary();
 
     }
-    /*
+    
     void InitializeAudioInfoDictionary()
     {
         audioInfoDictionary = new Dictionary<string, DialogueAudioInfoSO>();
@@ -115,7 +125,7 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("Failed to find audio info for id: " + id);
         }
     }
-    */
+    
     private void Update()
     {
         if(!dialogueIsPlaying)
@@ -138,7 +148,7 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables.StartListening(currentStory);
 
-        displayNameText.text = "???";
+        displayNameText1.text = "???";
         //portraitAnimator.Play("default");
         //layoutAnimator.Play("right");
 
@@ -156,7 +166,7 @@ public class DialogueManager : MonoBehaviour
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
 
-        //SetCurrentAudioInfo(defaultAudioInfo.id);
+        SetCurrentAudioInfo(defaultAudioInfo.id);
     }
 
     void ContinueStory()
@@ -212,7 +222,7 @@ public class DialogueManager : MonoBehaviour
             }
             else
             {
-                //PlayDialogueSound(dialogueText.maxVisibleCharacters, dialogueText.text[dialogueText.maxVisibleCharacters]);
+                PlayDialogueSound(dialogueText.maxVisibleCharacters, dialogueText.text[dialogueText.maxVisibleCharacters]);
                 dialogueText.maxVisibleCharacters++;
                 yield return new WaitForSeconds(typingSpeed);
             }
@@ -224,7 +234,7 @@ public class DialogueManager : MonoBehaviour
 
         cancontinueToNextLine = true;
     }
-    /*
+    
     void PlayDialogueSound(int currentDisplayedCharacterCount, char currentCharacter)
     {
         AudioClip[] dialogueTypingSoundClips = currentAudioInfo.dialogueTypingSoundClips;
@@ -247,6 +257,7 @@ public class DialogueManager : MonoBehaviour
                 int hashCode = currentCharacter.GetHashCode();
 
                 int predictableIndex = hashCode % dialogueTypingSoundClips.Length;
+                //Debug.Log("Pred Index" + predictableIndex);
                 soundClip = dialogueTypingSoundClips[predictableIndex];
 
                 int minPitchInt = (int)(minPitch * 100);
@@ -269,14 +280,15 @@ public class DialogueManager : MonoBehaviour
                 int randomIndex = Random.Range(0, dialogueTypingSoundClips.Length);
                 soundClip = dialogueTypingSoundClips[randomIndex];
 
+                //Debug.Log("Random Index: " + randomIndex);
+
                 audioSource.pitch = Random.Range(minPitch, maxPitch);
             }
-
 
             audioSource.PlayOneShot(soundClip);
         }
     }
-    */
+    
     void HideChoices()
     {
         foreach (GameObject choiceButton in choices)
@@ -300,7 +312,11 @@ public class DialogueManager : MonoBehaviour
             switch (tagKey)
             {
                 case SPEAKER_TAG:
-                    displayNameText.text = tagValue;
+                    GetCharacterTags(tagValue);
+                    displayNameText1.text = tagValue;
+                    break;
+                case SIDE_TAG:
+                    Debug.Log("WHICH SIDE TO: " + tagValue);
                     break;
                 case PORTRAIT_TAG:
                     //portraitAnimator.Play(tagValue);
@@ -309,7 +325,7 @@ public class DialogueManager : MonoBehaviour
                     //layoutAnimator.Play(tagValue);
                     break;
                 case AUDIO_TAG:
-                    //SetCurrentAudioInfo(tagValue);
+                    SetCurrentAudioInfo(tagValue);
                     break;
                 default:
                     Debug.LogWarning("Tag came in but is not currently being handled: " + tag);
@@ -369,6 +385,43 @@ public class DialogueManager : MonoBehaviour
             Debug.LogWarning("Ink Variable was found to be null: " + variableName);
         }
         return variableValue;
+    }
+
+    void GetCharacterTags(string id)
+    {
+        Debug.Log("TAG: " + id);
+
+        foreach(CharacterProfile profile in characterProfiles)
+        {
+            if(profile.characterID == id)
+            {
+                Debug.Log(profile.characterID);
+                Debug.Log(profile.characterName);
+                Debug.Log(profile.animator.name);
+                Debug.Log(profile.primaryColor);
+                Debug.Log(profile.secondaryColor);
+                Debug.Log(profile.fontColor);
+                //Debug.Log(profile.dialogueASO.id);
+                SetCurrentAudioInfo(profile.dialogueASO.id);
+                SetUIStyle(profile.primaryColor, profile.fontColor);
+            }
+        }
+    }
+
+    void SetUIStyle(Color32 mainColor, Color32 fontColor)
+    {
+        continueIcon.GetComponent<Image>().color = mainColor;
+        continueIcon.GetComponentInChildren<TextMeshProUGUI>().color = fontColor;
+
+        foreach (GameObject item in dialoguePanels)
+        {
+            item.GetComponent<Image>().color = mainColor;
+        }
+
+        displayNameText1.color = fontColor;
+        displayNameText2.color = fontColor;
+
+        dialogueText.color = fontColor;
     }
 
     public void OnApplicationQuit()
