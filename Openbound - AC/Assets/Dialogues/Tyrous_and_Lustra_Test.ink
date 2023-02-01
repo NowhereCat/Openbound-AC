@@ -4,7 +4,7 @@ And I am Lustra #side:right #speaker:lustra #emotion:neutral
 
 I am a mutant blood disguised as a Olive blood #side:left #speaker:tyrous #emotion:curious
 
-And I am a gold blood who's friends with a violet blood #side:right #speaker:lustra #emotion:unamused
+And I am a gold blood who's pretty short for some reason #side:right #speaker:lustra #emotion:unamused
 
 Glad to meet you Lustra! #side:left #speaker:tyrous #emotion:happy
 

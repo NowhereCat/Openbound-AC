@@ -1,0 +1,158 @@
+{ "frames": {
+   "SPIN TEXTURE #SHORT 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 1.aseprite": {
+    "frame": { "x": 35, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 2.aseprite": {
+    "frame": { "x": 70, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 3.aseprite": {
+    "frame": { "x": 105, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 4.aseprite": {
+    "frame": { "x": 140, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 5.aseprite": {
+    "frame": { "x": 175, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 6.aseprite": {
+    "frame": { "x": 210, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 7.aseprite": {
+    "frame": { "x": 245, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 8.aseprite": {
+    "frame": { "x": 280, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 9.aseprite": {
+    "frame": { "x": 315, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 10.aseprite": {
+    "frame": { "x": 350, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 11.aseprite": {
+    "frame": { "x": 385, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 12.aseprite": {
+    "frame": { "x": 420, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 13.aseprite": {
+    "frame": { "x": 455, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 14.aseprite": {
+    "frame": { "x": 490, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 15.aseprite": {
+    "frame": { "x": 525, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   },
+   "SPIN TEXTURE #SHORT 16.aseprite": {
+    "frame": { "x": 560, "y": 0, "w": 35, "h": 35 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 35, "h": 35 },
+    "sourceSize": { "w": 35, "h": 35 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.3-beta21-x64",
+  "image": "SPIN TEXTURE.png",
+  "format": "RGBA8888",
+  "size": { "w": 595, "h": 35 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "LONG", "from": 0, "to": 32, "direction": "forward", "color": "#000000ff" },
+   { "name": "SHORT", "from": 0, "to": 16, "direction": "forward", "color": "#000000ff" }
+  ],
+  "layers": [
+   { "name": "SHORT" },
+   { "name": "Layer 1", "group": "SHORT", "opacity": 255, "blendMode": "normal" },
+   { "name": "Layer 2", "group": "SHORT", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

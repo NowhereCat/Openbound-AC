@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterID: lustra
   characterName: Lustra Fotuna
-  animator: {fileID: 9100000, guid: 3973059f1b231884580b966e3357934a, type: 2}
+  animator: {fileID: 9100000, guid: f9c78b214328a354abf92eb5bb887e85, type: 2}
   primaryColor:
     serializedVersion: 2
     rgba: 4278231457
