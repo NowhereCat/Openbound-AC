@@ -16,5 +16,5 @@ public class CharacterProfile : ScriptableObject
     public Color32 secondaryColor;
     public Color32 fontColor;
 
-    public DialogueAudioInfoSO dialogueASO;
+    public string dialogueASOTag;
 }

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2f9a63180e79a4db827688e5cdde32, type: 3}
+  m_Name: Lustra
+  m_EditorClassIdentifier: 
+  characterID: lustra
+  characterName: Lustra Fotuna
+  animator: {fileID: 9100000, guid: 3973059f1b231884580b966e3357934a, type: 2}
+  primaryColor:
+    serializedVersion: 2
+    rgba: 4278231457
+  secondaryColor:
+    serializedVersion: 2
+    rgba: 4284809215
+  fontColor:
+    serializedVersion: 2
+    rgba: 4278231457
+  dialogueASOTag: lustra

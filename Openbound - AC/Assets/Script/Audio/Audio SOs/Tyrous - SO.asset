@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: tyrous
   dialogueTypingSoundClips:
-  - {fileID: 8300000, guid: e85ccaf2ec37d2146953f08d2d515d08, type: 3}
+  - {fileID: 8300000, guid: f94b7775b92120844b0330163c308a67, type: 3}
   frequenceLevel: 5
   minPitch: 0.75
   maxPitch: 1

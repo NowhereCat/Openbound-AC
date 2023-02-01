@@ -19,6 +19,5 @@ public class UpdateUIAnimation : MonoBehaviour
     void Update()
     {
         targetPanel.sprite = spriteRenderer.sprite;
-        targetPanel.color = spriteRenderer.color;
     }
 }

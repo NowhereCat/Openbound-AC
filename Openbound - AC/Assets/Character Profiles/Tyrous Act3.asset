@@ -24,4 +24,4 @@ MonoBehaviour:
   fontColor:
     serializedVersion: 2
     rgba: 4278216257
-  dialogueASO: {fileID: 11400000, guid: 65e3d907ca96f1d40ad75061d3ffe028, type: 2}
+  dialogueASOTag: tyrous

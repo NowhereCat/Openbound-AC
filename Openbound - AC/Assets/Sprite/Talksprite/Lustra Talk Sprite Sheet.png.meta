@@ -1,0 +1,634 @@
+fileFormatVersion: 2
+guid: 7fb3897872104994aa7541157e598cb6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NEUTRAL_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 269
+        width: 138
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a48c412cab3c0478b192370a56ad15
+      internalID: -1522314133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NEUTRAL_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 269
+        width: 138
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead1be68350dfd4bb0c882c6269338c
+      internalID: -1365043416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAD_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 269
+        width: 138
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a955f10c5e3fe48b1f3d5a45f4c053
+      internalID: -980807564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SAD_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 269
+        width: 138
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1ffb5eda95acd448130de2c2d9ab39
+      internalID: -672589003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CRYING_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 268
+        width: 138
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2627e10a035e2094ca69e38c47d5aac1
+      internalID: 1848274274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CRYING_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 268
+        width: 138
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b1a5bf267b812408f133db1496b7fb
+      internalID: 1019127416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNAMUSED_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 269
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce873ef5ab537d4ca22bcc281c86012
+      internalID: -533015028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNAMUSED_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 269
+        width: 139
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9578a4b98c092942bf8420df7e0099a
+      internalID: 2016662838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTRIGUED_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 269
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c1e682a920bc940a3803c8b70cfe49
+      internalID: -1684359697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: INTRIGUED_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 269
+        width: 137
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834c9c173e462a34fa3024729ed00d59
+      internalID: -731561607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANNOYED_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 1668
+        y: 269
+        width: 137
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2697997835d07c54b9af8df24a05a968
+      internalID: -1439673966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANNOYED_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 269
+        width: 137
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75251cdc815d4a244bc6db23aac3c435
+      internalID: 630797869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPSET_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 269
+        width: 139
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c553db9712eda74da2ac6ef876dab7b
+      internalID: 2114381679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UPSET_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 269
+        width: 139
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a32268254a082428a6f72a4f0ceeef
+      internalID: 329553417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAPPY_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 72
+        width: 138
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbb070d5bae44a4490b1d536b8f9e02
+      internalID: 508074735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HAPPY_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 72
+        width: 138
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c78b66d30d32743b15279f2aee43ad
+      internalID: -477864141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTONISHED_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 72
+        width: 139
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd803ece1e4d1f94daea5eadf678bf07
+      internalID: -461150816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ASTONISHED_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 72
+        width: 139
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a5d18fd93a6ea4d8a3f0c0598acace
+      internalID: 569105101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRY_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 72
+        width: 140
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20835c7631a7e2e48b574a37134b29ac
+      internalID: 1562496600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ANGRY_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 72
+        width: 140
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d166f68e49cc1b4bb727f539e37789d
+      internalID: 1890217723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SURPRISED_talksprite_lustra_01
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 73
+        width: 138
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab9f4d218e20a644bc46d95f5a60223
+      internalID: 1699601075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SURPRISED_talksprite_lustra_02
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 73
+        width: 138
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0661fd2acd5c54986efa5c411db3bb
+      internalID: 1354134253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NEUTRAL_talksprite_lustra_01: -1522314133
+      Lustra Talk Sprite Sheet_33: -823963638
+      Lustra Talk Sprite Sheet_18: -438762084
+      NEUTRAL_talksprite_lustra_02: -1365043416
+      Lustra Talk Sprite Sheet_14: -1399662994
+      Lustra Talk Sprite Sheet_17: -84097203
+      Lustra Talk Sprite Sheet_23: 1865555905
+      SAD_talksprite_lustra_02: -672589003
+      UNAMUSED_talksprite_lustra_01: -533015028
+      INTRIGUED_talksprite_lustra_01: -1684359697
+      Lustra Talk Sprite Sheet_22: -194868963
+      CRYING_talksprite_lustra_02: 1019127416
+      Lustra Talk Sprite Sheet_20: -116880975
+      SURPRISED_talksprite_lustra_02: 1354134253
+      Lustra Talk Sprite Sheet_34: -1260593021
+      Lustra Talk Sprite Sheet_15: 1582943577
+      Lustra Talk Sprite Sheet_19: 15346562
+      Lustra Talk Sprite Sheet_36: 1819589636
+      SAD_talksprite_lustra_01: -980807564
+      Lustra Talk Sprite Sheet_21: -231735955
+      UPSET_talksprite_lustra_01: 2114381679
+      HAPPY_talksprite_lustra_01: 508074735
+      ASTONISHED_talksprite_lustra_01: -461150816
+      UPSET_talksprite_lustra_02: 329553417
+      ANGRY_talksprite_lustra_01: 1562496600
+      Lustra Talk Sprite Sheet_24: -1471493587
+      INTRIGUED_talksprite_lustra_02: -731561607
+      ANNOYED_talksprite_lustra_01: -1439673966
+      ASTONISHED_talksprite_lustra_02: 569105101
+      SURPRISED_talksprite_lustra_01: 1699601075
+      UNAMUSED_talksprite_lustra_02: 2016662838
+      ANGRY_talksprite_lustra_02: 1890217723
+      Lustra Talk Sprite Sheet_16: -2106992921
+      ANNOYED_talksprite_lustra_02: 630797869
+      HAPPY_talksprite_lustra_02: -477864141
+      Lustra Talk Sprite Sheet_35: -1301422571
+      CRYING_talksprite_lustra_01: 1848274274
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

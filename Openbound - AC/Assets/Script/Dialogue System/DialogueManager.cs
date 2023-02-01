@@ -22,9 +22,10 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] GameObject continueIcon;
     [SerializeField] TextMeshProUGUI dialogueText;
-    [SerializeField] TextMeshProUGUI displayNameText1;
-    [SerializeField] TextMeshProUGUI displayNameText2;
-    [SerializeField] GameObject[] dialoguePanels;
+    [SerializeField] GameObject[] displayNamePanels;
+    [SerializeField] GameObject dialogueSectionPanel;
+    [SerializeField] GameObject[] portraitPanel;
+    [SerializeField] Color32 idleColor;
     //[SerializeField] Animator portraitAnimator;
     //Animator layoutAnimator;
 
@@ -60,9 +61,14 @@ public class DialogueManager : MonoBehaviour
 
     const string SPEAKER_TAG = "speaker";
     const string SIDE_TAG = "side";
-    const string PORTRAIT_TAG = "portrait";
-    const string LAYOUT_TAG = "layout";
+    const string EMOTION_TAG = "emotion";
+    const string PORTRAIT_TAG = "portrait"; //Might be removed later
+    const string LAYOUT_TAG = "layout"; //Might be removed later
     const string AUDIO_TAG = "audio";
+
+    private string[] emotionsStatic = new string[2];
+
+    bool leftSide = true;
 
     DialogueVariables dialogueVariables;    
 
@@ -87,6 +93,8 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
+
+        portraitPanel[1].SetActive(false);
 
         //layoutAnimator = dialoguePanel.GetComponent<Animator>();
 
@@ -148,7 +156,8 @@ public class DialogueManager : MonoBehaviour
 
         dialogueVariables.StartListening(currentStory);
 
-        displayNameText1.text = "???";
+        displayNamePanels[0].GetComponentInChildren<TextMeshProUGUI>().text = "???";
+        displayNamePanels[1].GetComponentInChildren<TextMeshProUGUI>().text = "???";
         //portraitAnimator.Play("default");
         //layoutAnimator.Play("right");
 
@@ -229,6 +238,12 @@ public class DialogueManager : MonoBehaviour
 
             
         }
+
+        if(leftSide)
+            PlayEmotion(emotionsStatic[0], true);
+        else
+            PlayEmotion(emotionsStatic[1], true);
+
         continueIcon.SetActive(true);
         DisplayChoices();
 
@@ -313,10 +328,22 @@ public class DialogueManager : MonoBehaviour
             {
                 case SPEAKER_TAG:
                     GetCharacterTags(tagValue);
-                    displayNameText1.text = tagValue;
+                    //displayNameText1.text = tagValue;
                     break;
                 case SIDE_TAG:
                     Debug.Log("WHICH SIDE TO: " + tagValue);
+
+                    if (tagValue == "left")
+                        leftSide = true;
+                    else if (tagValue == "right")
+                        leftSide = false;
+                    else
+                        Debug.LogError(tagValue + " is not a side!");
+
+                    break;
+                case EMOTION_TAG:
+                    Debug.Log("EMOTION: " + tagValue);
+                    PlayEmotion(tagValue);
                     break;
                 case PORTRAIT_TAG:
                     //portraitAnimator.Play(tagValue);
@@ -402,9 +429,50 @@ public class DialogueManager : MonoBehaviour
                 Debug.Log(profile.secondaryColor);
                 Debug.Log(profile.fontColor);
                 //Debug.Log(profile.dialogueASO.id);
-                SetCurrentAudioInfo(profile.dialogueASO.id);
-                SetUIStyle(profile.primaryColor, profile.fontColor);
+
+                if (leftSide)
+                {
+                    displayNamePanels[0].GetComponentInChildren<TextMeshProUGUI>().text = profile.characterName;
+
+                    portraitPanel[0].GetComponentInChildren<Animator>().runtimeAnimatorController = profile.animator;
+
+                    portraitPanel[0].GetComponent<Image>().color = Color.white;
+                    portraitPanel[1].GetComponent<Image>().color = idleColor;
+                }
+                else
+                {
+                    displayNamePanels[1].GetComponentInChildren<TextMeshProUGUI>().text = profile.characterName;
+
+                    portraitPanel[1].GetComponentInChildren<Animator>().runtimeAnimatorController = profile.animator;
+
+                    portraitPanel[1].SetActive(true);
+                    portraitPanel[0].GetComponent<Image>().color = idleColor;
+                    portraitPanel[1].GetComponent<Image>().color = Color.white;
+                }
+
+                SetCurrentAudioInfo(profile.dialogueASOTag);
+                SetUIStyle(profile.secondaryColor, profile.fontColor);
             }
+        }
+    }
+
+    void PlayEmotion(string emotion, bool _idle = false)
+    {
+        string idleString = "";
+        if (_idle)
+            idleString = "_IDLE";
+        else
+            idleString = "";
+
+        if (leftSide)
+        {
+            portraitPanel[0].GetComponentInChildren<Animator>().Play(emotion.ToUpper() + idleString);
+            emotionsStatic[0] = emotion;
+        }
+        else
+        {
+            portraitPanel[1].GetComponentInChildren<Animator>().Play(emotion.ToUpper() + idleString);
+            emotionsStatic[1] = emotion;
         }
     }
 
@@ -413,13 +481,18 @@ public class DialogueManager : MonoBehaviour
         continueIcon.GetComponent<Image>().color = mainColor;
         continueIcon.GetComponentInChildren<TextMeshProUGUI>().color = fontColor;
 
-        foreach (GameObject item in dialoguePanels)
-        {
-            item.GetComponent<Image>().color = mainColor;
-        }
+        dialogueSectionPanel.GetComponent<Image>().color = mainColor;
 
-        displayNameText1.color = fontColor;
-        displayNameText2.color = fontColor;
+        if (leftSide)
+        {
+            displayNamePanels[0].GetComponentInChildren<TextMeshProUGUI>().color = fontColor;
+            displayNamePanels[0].GetComponent<Image>().color = mainColor;
+        }
+        else
+        {
+            displayNamePanels[1].GetComponentInChildren<TextMeshProUGUI>().color = fontColor;
+            displayNamePanels[1].GetComponent<Image>().color = mainColor;
+        }
 
         dialogueText.color = fontColor;
     }

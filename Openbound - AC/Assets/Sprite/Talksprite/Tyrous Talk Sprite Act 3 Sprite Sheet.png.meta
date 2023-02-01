@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Neutral01
+      name: NEUTRAL_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 19
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Neutral02
+      name: NEUTRAL_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 157
@@ -159,10 +159,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Happy01
+      name: HAPPY_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
-        x: 336
+        x: 337
         y: 480
         width: 118
         height: 171
@@ -180,12 +180,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Happy02
+      name: HAPPY_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 489
         y: 480
-        width: 117
+        width: 118
         height: 171
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Annoyed01
+      name: ANNOYED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 640
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Annoyed02
+      name: ANNOYED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 803
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Confused01
+      name: CONFUSED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 973
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Confused02
+      name: CONFUSED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 1133
@@ -285,7 +285,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Unamused01
+      name: UNAMUSED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 17
@@ -306,7 +306,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Unamused02
+      name: UNAMUSED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 174
@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Suprised01
+      name: SURPRISED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 331
@@ -348,7 +348,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Suprised02
+      name: SURPRISED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 483
@@ -369,7 +369,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Sad01
+      name: SAD_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 647
@@ -390,7 +390,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Sad02
+      name: SAD_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 805
@@ -411,7 +411,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Smug01
+      name: SMUG_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 966
@@ -432,7 +432,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Smug02
+      name: SMUG_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 1124
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Curious01
+      name: CURIOUS_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 11
@@ -474,7 +474,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Curious02
+      name: CURIOUS_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 167
@@ -495,7 +495,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Angry01
+      name: ANGRY_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 323
@@ -516,7 +516,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Angry0
+      name: ANGRY_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 471
@@ -537,7 +537,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Shushed01
+      name: SHUSHED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 653
@@ -558,7 +558,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Shushed02
+      name: SHUSHED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 814
@@ -579,7 +579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Blushed01
+      name: BLUSHED_talksprite_tyrousAct3_01
       rect:
         serializedVersion: 2
         x: 955
@@ -600,7 +600,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talksprite_tyrousAct3_Blushed02
+      name: BLUSHED_talksprite_tyrousAct3_02
       rect:
         serializedVersion: 2
         x: 1115
@@ -633,107 +633,107 @@ TextureImporter:
     nameFileIdTable:
       Tyrous Talk Sprite Act 3 Sprite Sheet_65: -1984774075
       Tyrous Talk Sprite Act 3 Sprite Sheet_58: 41849010
-      Tyrous Talk Sprite Act 3 Sprite Sheet_33: 621411481
+      CURIOUS_talksprite_tyrousAct3_01: 1411530593
+      HAPPY_talksprite_tyrousAct3_01: -89749193
       Tyrous Talk Sprite Act 3 Sprite Sheet_9: 157581734
-      talksprite_tyrousAct3_Shushed02: -1223766936
+      Tyrous Talk Sprite Act 3 Sprite Sheet_33: 621411481
+      UNAMUSED_talksprite_tyrousAct3_01: 179768797
       Tyrous Talk Sprite Act 3 Sprite Sheet_94: -1368930306
       Tyrous Talk Sprite Act 3 Sprite Sheet_29: 433411548
       Tyrous Talk Sprite Act 3 Sprite Sheet_31: -1619630004
-      talksprite_tyrousAct3_Smug02: -1964618192
-      talksprite_tyrousAct3_Annoyed02: 573615868
-      talksprite_tyrousAct3_Angry01: -1696674230
       Tyrous Talk Sprite Act 3 Sprite Sheet_63: -1877342144
       Tyrous Talk Sprite Act 3 Sprite Sheet_91: 1030745908
       Tyrous Talk Sprite Act 3 Sprite Sheet_54: 1567433037
       Tyrous Talk Sprite Act 3 Sprite Sheet_51: -353186242
+      BLUSHED_talksprite_tyrousAct3_02: 21640844
       Tyrous Talk Sprite Act 3 Sprite Sheet_32: -271990276
       Tyrous Talk Sprite Act 3 Sprite Sheet_15: -188531573
       Tyrous Talk Sprite Act 3 Sprite Sheet_23: 1050194079
       Tyrous Talk Sprite Act 3 Sprite Sheet_76: -1277984242
-      talksprite_tyrousAct3_Confused02: 1083669246
       Tyrous Talk Sprite Act 3 Sprite Sheet_56: -1028594513
       Tyrous Talk Sprite Act 3 Sprite Sheet_53: -952386214
+      SAD_talksprite_tyrousAct3_02: -1401825883
       Tyrous Talk Sprite Act 3 Sprite Sheet_24: -837411227
       Tyrous Talk Sprite Act 3 Sprite Sheet_61: -1778026222
       Tyrous Talk Sprite Act 3 Sprite Sheet_100: -900362075
-      talksprite_tyrousAct3_Suprised01: -32338786
-      Tyrous Talk Sprite Act 3 Sprite Sheet_47: 423913933
-      talksprite_tyrousAct3_Curious02: -93885336
-      Tyrous Talk Sprite Act 3 Sprite Sheet_17: 1040742460
-      Tyrous Talk Sprite Act 3 Sprite Sheet_21: -1236502598
-      talksprite_tyrousAct3_Sad02: -1401825883
       Tyrous Talk Sprite Act 3 Sprite Sheet_80: 487723
+      Tyrous Talk Sprite Act 3 Sprite Sheet_47: 423913933
+      Tyrous Talk Sprite Act 3 Sprite Sheet_17: 1040742460
       Tyrous Talk Sprite Act 3 Sprite Sheet_90: -1041860471
+      CONFUSED_talksprite_tyrousAct3_02: 1083669246
+      Tyrous Talk Sprite Act 3 Sprite Sheet_21: -1236502598
       Tyrous Talk Sprite Act 3 Sprite Sheet_102: 1779981692
+      HAPPY_talksprite_tyrousAct3_02: -787964668
+      UNAMUSED_talksprite_tyrousAct3_02: -1092265107
       Tyrous Talk Sprite Act 3 Sprite Sheet_93: -1625434770
       Tyrous Talk Sprite Act 3 Sprite Sheet_52: -1541703637
+      NEUTRAL_talksprite_tyrousAct3_01: -295857076
       Tyrous Talk Sprite Act 3 Sprite Sheet_66: 1521720369
       Tyrous Talk Sprite Act 3 Sprite Sheet_18: -1547706171
-      talksprite_tyrousAct3_Curious01: 1411530593
       Tyrous Talk Sprite Act 3 Sprite Sheet_46: -450297188
       Tyrous Talk Sprite Act 3 Sprite Sheet_14: -1526839457
       Tyrous Talk Sprite Act 3 Sprite Sheet_49: -1909592963
-      talksprite_tyrousAct3_Blushed02: 21640844
+      ANNOYED_talksprite_tyrousAct3_01: 2114923036
       Tyrous Talk Sprite Act 3 Sprite Sheet_87: -765924562
-      talksprite_tyrousAct3_Shushed01: -1386071687
       Tyrous Talk Sprite Act 3 Sprite Sheet_45: 484290506
       Tyrous Talk Sprite Act 3 Sprite Sheet_64: 1768796621
-      talksprite_tyrousAct3_Happy02: -787964668
-      Tyrous Talk Sprite Act 3 Sprite Sheet_26: 375444713
       Tyrous Talk Sprite Act 3 Sprite Sheet_50: 1027858142
+      Tyrous Talk Sprite Act 3 Sprite Sheet_26: 375444713
       Tyrous Talk Sprite Act 3 Sprite Sheet_43: -403538859
       Tyrous Talk Sprite Act 3 Sprite Sheet_11: -73576936
+      NEUTRAL_talksprite_tyrousAct3_02: -1110780167
       Tyrous Talk Sprite Act 3 Sprite Sheet_16: 545787190
+      CONFUSED_talksprite_tyrousAct3_01: -178164566
       Tyrous Talk Sprite Act 3 Sprite Sheet_97: -312525930
+      SURPRISED_talksprite_tyrousAct3_01: -32338786
+      ANGRY_talksprite_tyrousAct3_02: 896077536
       Tyrous Talk Sprite Act 3 Sprite Sheet_81: -1252558462
+      SHUSHED_talksprite_tyrousAct3_01: -1386071687
       Tyrous Talk Sprite Act 3 Sprite Sheet_67: 1531223534
       Tyrous Talk Sprite Act 3 Sprite Sheet_34: 684424668
       Tyrous Talk Sprite Act 3 Sprite Sheet_95: 189657311
+      BLUSHED_talksprite_tyrousAct3_01: -170791079
       Tyrous Talk Sprite Act 3 Sprite Sheet_57: 1031706754
       Tyrous Talk Sprite Act 3 Sprite Sheet_89: -643302286
       Tyrous Talk Sprite Act 3 Sprite Sheet_83: -1642733053
-      talksprite_tyrousAct3_Angry0: 896077536
       Tyrous Talk Sprite Act 3 Sprite Sheet_79: 77020456
       Tyrous Talk Sprite Act 3 Sprite Sheet_62: -1820936524
       Tyrous Talk Sprite Act 3 Sprite Sheet_8: 776349288
       Tyrous Talk Sprite Act 3 Sprite Sheet_77: -1497485335
+      CURIOUS_talksprite_tyrousAct3_02: -93885336
       Tyrous Talk Sprite Act 3 Sprite Sheet_82: -1880791486
       Tyrous Talk Sprite Act 3 Sprite Sheet_12: 1361774272
+      SMUG_talksprite_tyrousAct3_02: -1964618192
       Tyrous Talk Sprite Act 3 Sprite Sheet_22: -1698372010
       Tyrous Talk Sprite Act 3 Sprite Sheet_96: -1465962667
       Tyrous Talk Sprite Act 3 Sprite Sheet_98: -527067202
       Tyrous Talk Sprite Act 3 Sprite Sheet_30: 1936229838
       Tyrous Talk Sprite Act 3 Sprite Sheet_85: 205401916
-      talksprite_tyrousAct3_Suprised02: -369647797
-      talksprite_tyrousAct3_Happy01: -89749193
+      ANGRY_talksprite_tyrousAct3_01: -1696674230
+      SAD_talksprite_tyrousAct3_01: -445852235
       Tyrous Talk Sprite Act 3 Sprite Sheet_88: -1583914563
       Tyrous Talk Sprite Act 3 Sprite Sheet_84: 252483547
       Tyrous Talk Sprite Act 3 Sprite Sheet_10: 294410792
-      talksprite_tyrousAct3_Unamused01: 179768797
       Tyrous Talk Sprite Act 3 Sprite Sheet_99: 825995482
       Tyrous Talk Sprite Act 3 Sprite Sheet_101: 1147548082
       Tyrous Talk Sprite Act 3 Sprite Sheet_44: 346829782
       Tyrous Talk Sprite Act 3 Sprite Sheet_48: -606029244
       Tyrous Talk Sprite Act 3 Sprite Sheet_59: 745851765
-      talksprite_tyrousAct3_Smug01: 1814411030
-      talksprite_tyrousAct3_Neutral02: -1110780167
+      SURPRISED_talksprite_tyrousAct3_02: -369647797
       Tyrous Talk Sprite Act 3 Sprite Sheet_25: -780460376
-      talksprite_tyrousAct3_Unamused02: -1092265107
       Tyrous Talk Sprite Act 3 Sprite Sheet_78: -1853787251
       Tyrous Talk Sprite Act 3 Sprite Sheet_27: -1075669602
-      talksprite_tyrousAct3_Confused01: -178164566
+      SHUSHED_talksprite_tyrousAct3_02: -1223766936
+      ANNOYED_talksprite_tyrousAct3_02: 573615868
       Tyrous Talk Sprite Act 3 Sprite Sheet_86: -1371903490
-      talksprite_tyrousAct3_Sad01: -445852235
-      talksprite_tyrousAct3_Blushed01: -170791079
       Tyrous Talk Sprite Act 3 Sprite Sheet_28: 940893751
-      talksprite_tyrousAct3_Annoyed01: 2114923036
-      talksprite_tyrousAct3_Neutral01: -295857076
+      SMUG_talksprite_tyrousAct3_01: 1814411030
       Tyrous Talk Sprite Act 3 Sprite Sheet_55: 1149490123
       Tyrous Talk Sprite Act 3 Sprite Sheet_13: 1133614662
-      Tyrous Talk Sprite Act 3 Sprite Sheet_19: -1993610118
+      Tyrous Talk Sprite Act 3 Sprite Sheet_20: -1065115538
       Tyrous Talk Sprite Act 3 Sprite Sheet_60: -1389151523
       Tyrous Talk Sprite Act 3 Sprite Sheet_92: 1455606099
-      Tyrous Talk Sprite Act 3 Sprite Sheet_20: -1065115538
+      Tyrous Talk Sprite Act 3 Sprite Sheet_19: -1993610118
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
