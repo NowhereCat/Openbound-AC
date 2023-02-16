@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 851023125194373184, guid: f929ff2de883ccf48ac721c4bbdf6dc7, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fa4d41322932e70438e05e2afdbc510e, type: 2}
+    - target: {fileID: 2408146931526459522, guid: f929ff2de883ccf48ac721c4bbdf6dc7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1143032833, guid: cc838c13aa276e847a63545074f9eb35, type: 3}
     - target: {fileID: 2408146931526459522, guid: f929ff2de883ccf48ac721c4bbdf6dc7, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 

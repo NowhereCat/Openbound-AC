@@ -1,0 +1,1852 @@
+fileFormatVersion: 2
+guid: cc838c13aa276e847a63545074f9eb35
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 391
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b1516816de98f40ba70d4670f4f493
+      internalID: -1569379556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 391
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2288c90c0fe94b42b2682f463385915
+      internalID: -2134878814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 391
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df69734cf6c57d9408857d74cf58ea3e
+      internalID: -904291110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 391
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236764829e5273d4a843ff5053c450cd
+      internalID: 774815516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 391
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a573f4cd50a4050478bea850b94fc95b
+      internalID: -2047650009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 391
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0d2d66a033e8449ac2fa79244859c
+      internalID: -1143032833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 391
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afc5aee6cb2ed44ba0ad70e2a68d42f
+      internalID: -1190586290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 391
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a457a6c45e471428c83cc5ab9bb1ea
+      internalID: -1316753391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 391
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c34986eb3b1ef4480e3aa7431d92aa
+      internalID: -258680422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 391
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef79aaee200f5c34dad8f729099e164a
+      internalID: -1930413579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 389
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8513cdc80a44a5d4184fd32c3369aa4f
+      internalID: -1881061226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-SIDE-01
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 389
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.8292683, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672d49efef6b8c54a8ab8f8d7d217786
+      internalID: -916195115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 389
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7349787e75928041ab2c43f81597b5e
+      internalID: -2004575305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 335
+        width: 36
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccda01eff5033f46b51a8e15c18526d
+      internalID: 299962957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 336
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc40f511d8062142b551999c88ea159
+      internalID: -1511833608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 336
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ab4077e77180408f816bf8b89709b
+      internalID: -200217272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 336
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361634c8663c8ae4094b4480ce1d7f05
+      internalID: -1928313035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 335
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27868ce9e1f290d4799db567efbc2089
+      internalID: -1837684407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 334
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a231dd019d6184aa73f89930ba0e38
+      internalID: 1744103585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 334
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.8292683, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bbe2896809d5644ae2d857212d128e
+      internalID: 1677259079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 334
+        width: 38
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466d2419750370942b7c5535bad799c4
+      internalID: 1749409658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 280
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05f2babdebfdc742a3f7d0aed918809
+      internalID: -2059068973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 280
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e1049a648d31b4db2bdb4fcc45cf14
+      internalID: -119156666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-03
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 280
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abc4431f499de5469c20825ff65a68b
+      internalID: -932935602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 280
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ecfe6ab9c54926428192e2a36f51305
+      internalID: 1866708385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 280
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393dc9a2e7d41274292d88284ef05be0
+      internalID: -1706073889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 279
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be884e1f849d79449940643fb3c524ed
+      internalID: 1412372289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-SIDE-03
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 279
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.8292683, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73e19f86d13a8f14f93134889534e2ff
+      internalID: 659628564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 279
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a475504df490e746ae306880399202b
+      internalID: -2026129294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 225
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3839568cfc0db4cbe954d748d94230
+      internalID: 1450526636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 225
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05616d00effd9c24ebecdc043cdafff6
+      internalID: 719273291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-04
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 225
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e31828d460173a46aefd2c22242a134
+      internalID: 598321776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 225
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67153b94fe48b124dbd114dfbb2b782f
+      internalID: -692018725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 225
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d455cf1e03f3d44a0810dfa4729a0a
+      internalID: 1994012033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 224
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ef64fd0e4ed2d489e44d48025f23a8
+      internalID: -727177683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-SIDE-04
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 224
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.8292683, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda4e92f017c6cf4aa65397f2941041b
+      internalID: 1276116897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 224
+        width: 34
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43617022}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc5d47d3a11924ca4e7aec4f8e8e21
+      internalID: -1075463097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-05
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 171
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bcf31dc22843d4a9424c60f3ccfeea
+      internalID: 945901799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-05
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce53eb355cc7ce44e99187aaf24a23b8
+      internalID: -866783216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-05
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 171
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632875d2a1352fa45aca95740e5ff9a5
+      internalID: 1553344605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-05
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 171
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e586a82b31778084daca4b61f827d519
+      internalID: 461492291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-05
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 171
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f5223507982948acaeaf515ed76fd
+      internalID: 1399203740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 171
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e68a975363be154093c00462bd92963
+      internalID: -177636359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 171
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7ef2fec9cf6374ba9196cc27cc4fda
+      internalID: -1337619131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-SIDE-02
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 171
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96cf620bc1ffb6e459ac5636e40d17e0
+      internalID: -638539794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 171
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95762a1effb57874ea62772c07bbd027
+      internalID: 1505932572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-FORWARD-01
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 170
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0.7083333, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75092bf9af564e4cbacd2755189f099
+      internalID: -1788216529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-BACKWARD-01
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 170
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.7234042, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceba80e1bb7ac534db2a7c66e3cd52e5
+      internalID: 1784436816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-06
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 115
+        width: 36
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10b19719f0c9a54b9139684beeb54a4
+      internalID: -431078322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-06
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 115
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.484375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2144efcafd682824fba966ab1b884d8b
+      internalID: 165682567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-06
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 116
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2e4426537f2c446967082cc45f7da2
+      internalID: -2066767369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-06
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 116
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ceea582de00c64eac9777a07a6b123
+      internalID: 215787777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-06
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 115
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84054dd68bb25e84cac5677e1e0510d7
+      internalID: -1399811923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 116
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58471ee4a4bcd1b46a182708a7bfba51
+      internalID: 1798089327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 116
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f97f7660cd6f488f873ed5021b898
+      internalID: 532705405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-SIDE-03
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 116
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694c8554412485541a7a3d45b36bb1f1
+      internalID: -1524232708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 116
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5b6e002e1e08d4fa9dca8962da17a2
+      internalID: 1173108987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-FORWARD-02
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 115
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0.7083333, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aacfe09d48f1894c81b0246c345b16f
+      internalID: -2132176704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-BACKWARD-02
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 115
+        width: 47
+        height: 46
+      alignment: 9
+      pivot: {x: 0.7234042, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef5f090f5d070442a323dc5785908f2
+      internalID: -613990740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-07
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 60
+        width: 30
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5232558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcbae958b16abb4fb415a398cb22687
+      internalID: 723710033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-07
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 61
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edcb7697ef6c00479fb8679fef39a11
+      internalID: -2023499015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-07
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 60
+        width: 25
+        height: 44
+      alignment: 9
+      pivot: {x: 0.56, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142cf52407255ce45b18d752a2d49694
+      internalID: 1470097302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-07
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 61
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b47ffafc03945346af6b95c1c7f7013
+      internalID: 1526069782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-07
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 60
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e7d2dc83ed170448fdd4fd85224839
+      internalID: -1942753800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 61
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4818f63ec6172df49b9a75b10a490ebb
+      internalID: 1052689261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 61
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c464382f172e26a468447d52d2ef7b9f
+      internalID: -1904892882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-SIDE-04
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 61
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b53cfa7cb642a44a78e17cd00d6849
+      internalID: 1018839334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-IDLE-DIAGONAL-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 61
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ef824724202704797d2ade80473d1d
+      internalID: -1929814163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-FORWARD-03
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 60
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.73913044, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d1ec5293b99a8489f496215d4f7fe4
+      internalID: -289148491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-BACKWARD-03
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 60
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.75555557, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20588b65b8db9541ad06214d35f524e
+      internalID: 2103182926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-FORWARD-08
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 5
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afff25ab1593660499b57ea60102a442
+      internalID: -373101290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-FORWARD-08
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7
+        width: 32
+        height: 44
+      alignment: 9
+      pivot: {x: 0.453125, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 192542fc34971ce4ebdedbe606fd879c
+      internalID: -1276701384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-SIDE-08
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 5
+        width: 23
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a62eef0be6567a42a117a0a6ccf9516
+      internalID: 449849100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-DIAGONAL-BACKWARD-08
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 6
+        width: 32
+        height: 43
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5116279}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1787e74390516b84f921f28c22633ea4
+      internalID: 1076303197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-WALK-BACKWARD-08
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 5
+        width: 30
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5113636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb15bf6ad3e914e98a42d38fb9c2ee
+      internalID: -1076017758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-FORWARD-04
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 5
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.73913044, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea05372ba033c9f409fb2bf28db30cd9
+      internalID: -1497752492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lustra-RUN-DIAGONAL-BACKWARD-04
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 5
+        width: 45
+        height: 46
+      alignment: 9
+      pivot: {x: 0.75555557, y: 0.4456522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821dabae502923540bf4f1467343e154
+      internalID: 1797951346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lustra-RUN-DIAGONAL-FORWARD-04: -1497752492
+      Lustra-IDLE-SIDE-04: 1018839334
+      Lustra-WALK-BACKWARD-01: -2047650009
+      Lustra-WALK-DIAGONAL-FORWARD-05: -866783216
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_20: -1447018534
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_85: -1165971908
+      Lustra-WALK-DIAGONAL-FORWARD-02: -1511833608
+      Lustra-IDLE-FORWARD-01: -1143032833
+      Lustra-RUN-BACKWARD-03: -2026129294
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_21: 526110347
+      Lustra-WALK-BACKWARD-04: 1994012033
+      Lustra-IDLE-FORWARD-03: 1798089327
+      Lustra-IDLE-FORWARD-04: 1052689261
+      Lustra-WALK-DIAGONAL-FORWARD-08: -1276701384
+      Lustra-WALK-SIDE-04: 598321776
+      Lustra-RUN-SIDE-01: -916195115
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_32: 397574787
+      Lustra-RUN-BACKWARD-01: -2004575305
+      Lustra-WALK-DIAGONAL-BACKWARD-04: -692018725
+      Lustra-RUN-BACKWARD-02: 1749409658
+      Lustra-RUN-DIAGONAL-FORWARD-03: -289148491
+      Lustra-IDLE-DIAGONAL-BACKWARD-04: -1929814163
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_97: -1490734575
+      Lustra-WALK-DIAGONAL-FORWARD-07: -2023499015
+      Lustra-WALK-BACKWARD-08: -1076017758
+      Lustra-WALK-DIAGONAL-FORWARD-01: -2134878814
+      Lustra-WALK-BACKWARD-02: -1837684407
+      Lustra-WALK-DIAGONAL-FORWARD-04: 719273291
+      Lustra-WALK-DIAGONAL-BACKWARD-03: 1866708385
+      Lustra-WALK-DIAGONAL-BACKWARD-08: 1076303197
+      Lustra-WALK-DIAGONAL-BACKWARD-05: 461492291
+      Lustra-WALK-FORWARD-07: 723710033
+      Lustra-WALK-SIDE-02: -200217272
+      Lustra-WALK-FORWARD-04: 1450526636
+      Lustra-WALK-BACKWARD-05: 1399203740
+      Lustra-WALK-FORWARD-01: -1569379556
+      Lustra-WALK-FORWARD-08: -373101290
+      Lustra-WALK-FORWARD-03: -2059068973
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_94: 1086059385
+      Lustra-WALK-DIAGONAL-BACKWARD-07: 1526069782
+      Lustra-IDLE-DIAGONAL-FORWARD-02: -1337619131
+      Lustra-RUN-DIAGONAL-BACKWARD-03: 2103182926
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_44: 75118453
+      Lustra-RUN-DIAGONAL-BACKWARD-02: -613990740
+      Lustra-RUN-SIDE-02: 1677259079
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_22: 650079964
+      Lustra-WALK-DIAGONAL-BACKWARD-01: 774815516
+      Lustra-WALK-FORWARD-05: 945901799
+      Lustra-IDLE-DIAGONAL-BACKWARD-02: 1505932572
+      Lustra-IDLE-DIAGONAL-FORWARD-04: -1904892882
+      Lustra-IDLE-FORWARD-02: -177636359
+      Lustra-IDLE-DIAGONAL-FORWARD-01: -1190586290
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_93: 1126807861
+      Lustra-WALK-DIAGONAL-BACKWARD-02: -1928313035
+      Lustra-IDLE-DIAGONAL-BACKWARD-01: -258680422
+      Lustra-RUN-FORWARD-01: -1881061226
+      Lustra-RUN-DIAGONAL-FORWARD-01: -1788216529
+      Lustra-IDLE-SIDE-03: -1524232708
+      Lustra-WALK-FORWARD-02: 299962957
+      Lustra-RUN-BACKWARD-04: -1075463097
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_73: 174201933
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_18: 320580966
+      Lustra-WALK-SIDE-08: 449849100
+      Lustra-IDLE-BACKWARD-01: -1930413579
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_48: 1173511263
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_33: 20997134
+      Lustra-WALK-SIDE-07: 1470097302
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_61: 1785003182
+      Lustra-RUN-DIAGONAL-BACKWARD-01: 1784436816
+      Lustra-WALK-BACKWARD-03: -1706073889
+      Lustra-RUN-FORWARD-02: 1744103585
+      Lustra-IDLE-SIDE-01: -1316753391
+      Lustra-WALK-DIAGONAL-BACKWARD-06: 215787777
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_35: -1504156522
+      Lustra-WALK-SIDE-06: -2066767369
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_34: -2099941154
+      Lustra-RUN-FORWARD-04: -727177683
+      Lustra-RUN-FORWARD-03: 1412372289
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_45: -1865852475
+      Lustra-WALK-DIAGONAL-FORWARD-03: -119156666
+      Lustra-IDLE-SIDE-02: -638539794
+      Lustra-RUN-SIDE-04: 1276116897
+      Lustra-WALK-DIAGONAL-FORWARD-06: 165682567
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_96: 1567314181
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_47: 232639727
+      Lustra-WALK-FORWARD-06: -431078322
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_95: -740583471
+      Lustra-WALK-SIDE-01: -904291110
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_31: -2081844458
+      Lustra-IDLE-DIAGONAL-BACKWARD-03: 1173108987
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_46: 29909425
+      Lustra-WALK-BACKWARD-07: -1942753800
+      Lustra-IDLE-DIAGONAL-FORWARD-03: 532705405
+      Lustra-WALK-SIDE-03: -932935602
+      Lustra-WALK-BACKWARD-06: -1399811923
+      Lustra Openbound - AC Sprite ISNGLE-Sheet_19: 1574548734
+      Lustra-RUN-DIAGONAL-FORWARD-02: -2132176704
+      Lustra-WALK-SIDE-05: 1553344605
+      Lustra-RUN-SIDE-03: 659628564
+      Lustra-RUN-DIAGONAL-BACKWARD-04: 1797951346
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
