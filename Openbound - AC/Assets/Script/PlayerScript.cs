@@ -10,6 +10,8 @@ public class PlayerScript : MonoBehaviour
     PlayerInput playerInput;
     PlayerActionInput playerActionInput;
 
+    public Stats playerStats;
+
     public float regularSpeed = 250f;
     public float sprintSpeed = 300;
     [SerializeField] private float currentSpeed;

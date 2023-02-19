@@ -8,7 +8,7 @@ public class LevelManager : MonoBehaviour
     PlayerScript playerScript;
     Animator playerAnimator;
 
-    [SerializeField] RuntimeAnimatorController[] characterAnimators;
+    [SerializeField] Stats[] characterStats;
 
     private void Awake()
     {
@@ -17,7 +17,8 @@ public class LevelManager : MonoBehaviour
         playerScript = playerGO.GetComponent<PlayerScript>();
         playerAnimator = playerGO.GetComponentInChildren<Animator>();
 
-        playerAnimator.runtimeAnimatorController = characterAnimators[GameManager.Instance.GetCharacterIndex()];
+        playerScript.playerStats = characterStats[GameManager.Instance.GetCharacterIndex()];
+        playerAnimator.runtimeAnimatorController = characterStats[GameManager.Instance.GetCharacterIndex()].runtimeAnimatorController;
     }
 
     // Start is called before the first frame update
