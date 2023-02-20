@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    public static UIManager _instance;
 
     PlayerScript player;
 
@@ -31,6 +32,18 @@ public class UIManager : MonoBehaviour
     public GameObject statsPanel;
     [SerializeField] bool showStats = false;
 
+    [Header("Inventory Panel")]
+    public GameObject inventoryPanel;
+    [SerializeField] bool showInventory;
+    [SerializeField] Image itemIconImage;
+    [SerializeField] TextMeshProUGUI itemTitleText;
+    [SerializeField] TextMeshProUGUI itemDescriptionText;
+
+    private void Awake()
+    {
+        _instance = this;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +54,8 @@ public class UIManager : MonoBehaviour
         StartCoroutine(ShowLocation(true));
 
         UpdateStatusUI();
+
+        UpdateInventoryUI();
     }
 
     // Update is called once per frame
@@ -104,6 +119,14 @@ public class UIManager : MonoBehaviour
     public void ToggleSettingsPanel()
     {
         showSettings = !showSettings;
+    }
+
+    public void ToggleInventory()
+    {
+        showInventory = !showInventory;
+        ShowTabMenu();
+
+        inventoryPanel.SetActive(showInventory);
     }
 
 
@@ -194,9 +217,33 @@ public class UIManager : MonoBehaviour
                 strifeSections[i].SetActive(false);
             }
         }
+    }
 
+    public void UpdateInventoryUI()
+    {
+        GameObject inventorySection = inventoryPanel.transform.Find("Inferior/Panel").gameObject;
+        List<GameObject> cards = new List<GameObject>();
 
+        for (int i = 0; i < inventorySection.transform.childCount; i++)
+        {
+            cards.Add(inventorySection.transform.GetChild(i).gameObject);
+            cards[i].GetComponent<SelectItem>().SetIndex(i);
 
+            if(i < InventoryManager._instance.GetInvetorySize())
+                cards[i].SetActive(true);
+            else
+                cards[i].SetActive(false);
+        }
+
+    }
+
+    public void DisplayItem(int index)
+    {
+        Debug.Log("Displaying item od Index: " + index);
+
+        itemIconImage.sprite = InventoryManager._instance.GetInventoryItem(index).itemSprite;
+        itemTitleText.text = InventoryManager._instance.GetInventoryItem(index).itemName;
+        itemDescriptionText.text = InventoryManager._instance.GetInventoryItem(index).itemDescription;
     }
 
 }
