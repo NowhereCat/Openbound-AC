@@ -13,10 +13,12 @@ public class TooltipSystem : MonoBehaviour
         current = this;
 
         tooltip = GameObject.Find("Tooltip").GetComponent<Tooltip>();
+        Hide();
     }
 
-    public static void Show()
+    public static void Show(string content, string header = "")
     {
+        current.tooltip.SetText(content, header);
         current.tooltip.gameObject.SetActive(true);
     }
 

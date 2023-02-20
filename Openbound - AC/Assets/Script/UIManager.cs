@@ -24,6 +24,11 @@ public class UIManager : MonoBehaviour
     public float[] locationPositions;
     public float locationPanelDuration = 10f;
 
+    [Header("LOOT NOTIFICATION")]
+    public RectTransform notificationPanel;
+    public float[] notificationPositions;
+    public float notificationDuration = 10f;
+
     [Header("Settings Panel")]
     public GameObject settingsPanel;
     [SerializeField] bool showSettings = false;
@@ -105,6 +110,27 @@ public class UIManager : MonoBehaviour
         {
             yield return new WaitForSeconds(locationPanelDuration/3);
             locationPanel.transform.LeanMoveY(locationPositions[1], locationPanelDuration / 3);
+        }
+    }
+
+    public void LootNotification()
+    {
+        StartCoroutine(ShowLootNotification(true));
+    }
+
+    IEnumerator ShowLootNotification(bool _bool)
+    {
+
+        Debug.Log("NOTIFICAITON");
+
+        if (_bool)
+        {
+            notificationPanel.transform.LeanMoveY(notificationPositions[0], notificationDuration).setOnComplete(() => { StartCoroutine(ShowLootNotification(false)); });
+        }
+        else
+        {
+            yield return new WaitForSeconds(notificationDuration*2);
+            notificationPanel.transform.LeanMoveY(notificationPositions[1], notificationDuration);
         }
     }
 
@@ -229,8 +255,11 @@ public class UIManager : MonoBehaviour
             cards.Add(inventorySection.transform.GetChild(i).gameObject);
             cards[i].GetComponent<SelectItem>().SetIndex(i);
 
-            if(i < InventoryManager._instance.GetInvetorySize())
+            if (i < InventoryManager._instance.GetInvetorySize())
+            {
                 cards[i].SetActive(true);
+                cards[i].transform.GetChild(0).GetComponent<Image>().sprite = InventoryManager._instance.GetInventoryItem(i).itemSprite;
+            }
             else
                 cards[i].SetActive(false);
         }

@@ -54,6 +54,7 @@ public class InventoryManager : MonoBehaviour
             inventory.Add(item);
 
             UIManager._instance.UpdateInventoryUI();
+            UIManager._instance.LootNotification();
 
         } else Debug.LogWarning("Iventory Full");
     }
