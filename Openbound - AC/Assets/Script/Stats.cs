@@ -31,4 +31,6 @@ public class Stats : ScriptableObject
     public Strifedeck[] strifedecks;
     [Space(10)]
     public RuntimeAnimatorController runtimeAnimatorController;
+    [Space(10)]
+    public CharacterProfile characterProfile;
 }

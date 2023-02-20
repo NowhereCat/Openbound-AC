@@ -19,7 +19,7 @@ MonoBehaviour:
   species: Troll
   caste: Candy Red Mutant
   title: Mage of Blood
-  signSprite: {fileID: -2413806693520163455, guid: 9493deeee1f366d4b8c46ae5ac26655a, type: 3}
+  signSprite: {fileID: 1118423364, guid: b84d15757f3edec4b8ae40f3a90231b0, type: 3}
   age: 6 Sweeps
   powerLevel: 6
   intelligence: 5
@@ -33,3 +33,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1aa0df4d61ab82b429064ce83069f3db, type: 2}
   - {fileID: 11400000, guid: 51303a48bc3f6644b88a28ebde48dd6e, type: 2}
   runtimeAnimatorController: {fileID: 9100000, guid: 63ee2749a279a2744add181c9945076b, type: 2}
+  characterProfile: {fileID: 11400000, guid: 2ec16327b32293a4588c53ba3bbc2c63, type: 2}

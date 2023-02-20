@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb9af6a4c4cdc214eb8abbf339ca62f0
+guid: b84d15757f3edec4b8ae40f3a90231b0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,43 +117,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu Sprite_0
+      name: Lecer Sign
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4
-        width: 62
-        height: 31
+        x: 0
+        y: 0
+        width: 48
+        height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 3, y: 3, z: 5, w: 3}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a86c31e56dee3e8478e0cebc4e2403f5
-      internalID: -361424637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Menu Sprite_1
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 12
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14a628a371ad264ab1be32f730bb953
-      internalID: -1294871431
+      spriteID: 2314f24f4abedfa4c828a9fa659e3459
+      internalID: 1118423364
       vertices: []
       indices: 
       edges: []
@@ -169,8 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Menu Sprite_1: -1294871431
-      Menu Sprite_0: -361424637
+      Lecer Sign: 1118423364
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

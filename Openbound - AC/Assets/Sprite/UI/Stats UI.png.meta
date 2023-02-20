@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fb9af6a4c4cdc214eb8abbf339ca62f0
+guid: 5d14ad4983d245946aa5e251bd065a4c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,43 +117,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu Sprite_0
+      name: Stats UI_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 4
-        width: 62
-        height: 31
+        x: 10
+        y: 25
+        width: 90
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 3, y: 3, z: 5, w: 3}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 4, y: 4, z: 4, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a86c31e56dee3e8478e0cebc4e2403f5
-      internalID: -361424637
+      spriteID: 58eeabb8bb33cea4589bf01c237d5161
+      internalID: 311990137
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Menu Sprite_1
+      name: Stats UI_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 12
-        width: 8
-        height: 15
+        x: 106
+        y: 25
+        width: 89
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e68c2504af322343a7df16a77347229
+      internalID: -2136965980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stats UI_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 8
+        width: 156
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14a628a371ad264ab1be32f730bb953
-      internalID: -1294871431
+      spriteID: 86fc217369c2f234b8fbbc538ada68d4
+      internalID: 460660033
       vertices: []
       indices: 
       edges: []
@@ -169,8 +190,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Menu Sprite_1: -1294871431
-      Menu Sprite_0: -361424637
+      Stats UI_1: -2136965980
+      Stats UI_0: 311990137
+      Stats UI_2: 460660033
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
