@@ -34,3 +34,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 51303a48bc3f6644b88a28ebde48dd6e, type: 2}
   runtimeAnimatorController: {fileID: 9100000, guid: 63ee2749a279a2744add181c9945076b, type: 2}
   characterProfile: {fileID: 11400000, guid: 2ec16327b32293a4588c53ba3bbc2c63, type: 2}
+  presetInventory:
+  - {fileID: 11400000, guid: db33e00611d8ba343afd188eef309b07, type: 2}

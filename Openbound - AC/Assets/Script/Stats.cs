@@ -33,4 +33,11 @@ public class Stats : ScriptableObject
     public RuntimeAnimatorController runtimeAnimatorController;
     [Space(10)]
     public CharacterProfile characterProfile;
+    [Space(10)]
+    [SerializeField] List<ItemSO> presetInventory;
+
+    public List<ItemSO> GetPresetInventory()
+    {
+        return presetInventory;
+    }
 }

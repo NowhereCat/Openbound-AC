@@ -78,10 +78,12 @@ public class UIManager : MonoBehaviour
 
         if (tabMenu)
         {
+            tabMenuPanel.transform.Find("Open TabMenu").localScale = new Vector3(-1f, 1f, 1f);
             tabMenuPanel.transform.LeanMoveX(tabMenuPositions[0], tabMenuAnimDuration);
         }
         else
         {
+            tabMenuPanel.transform.Find("Open TabMenu").localScale = new Vector3(1f, 1f, 1f);
             tabMenuPanel.transform.LeanMoveX(tabMenuPositions[1], tabMenuAnimDuration);
         }
     }
@@ -120,11 +122,10 @@ public class UIManager : MonoBehaviour
 
     IEnumerator ShowLootNotification(bool _bool)
     {
-
-        Debug.Log("NOTIFICAITON");
-
         if (_bool)
         {
+            notificationPanel.transform.GetChild(0).GetComponent<Image>().sprite = InventoryManager._instance.GetInventoryItem(InventoryManager._instance.GetInvetorySize() - 1).itemSprite;
+            notificationPanel.transform.GetChild(0).GetComponent<Image>().SetNativeSize();
             notificationPanel.transform.LeanMoveY(notificationPositions[0], notificationDuration).setOnComplete(() => { StartCoroutine(ShowLootNotification(false)); });
         }
         else
@@ -259,6 +260,7 @@ public class UIManager : MonoBehaviour
             {
                 cards[i].SetActive(true);
                 cards[i].transform.GetChild(0).GetComponent<Image>().sprite = InventoryManager._instance.GetInventoryItem(i).itemSprite;
+                cards[i].transform.GetChild(0).GetComponent<Image>().SetNativeSize();
             }
             else
                 cards[i].SetActive(false);
@@ -271,6 +273,7 @@ public class UIManager : MonoBehaviour
         Debug.Log("Displaying item od Index: " + index);
 
         itemIconImage.sprite = InventoryManager._instance.GetInventoryItem(index).itemSprite;
+        itemIconImage.SetNativeSize();
         itemTitleText.text = InventoryManager._instance.GetInventoryItem(index).itemName;
         itemDescriptionText.text = InventoryManager._instance.GetInventoryItem(index).itemDescription;
     }

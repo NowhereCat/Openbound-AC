@@ -59,4 +59,9 @@ public class InventoryManager : MonoBehaviour
         } else Debug.LogWarning("Iventory Full");
     }
 
+    public void SetPresetInventory(List<ItemSO> preset)
+    {
+        inventory = preset;
+    }
+
 }

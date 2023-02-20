@@ -19,6 +19,8 @@ public class LevelManager : MonoBehaviour
 
         playerScript.playerStats = characterStats[GameManager.Instance.GetCharacterIndex()];
         playerAnimator.runtimeAnimatorController = characterStats[GameManager.Instance.GetCharacterIndex()].runtimeAnimatorController;
+
+        InventoryManager._instance.SetPresetInventory(characterStats[GameManager.Instance.GetCharacterIndex()].GetPresetInventory());
     }
 
     // Start is called before the first frame update
